@@ -9,5 +9,5 @@ def generate_horror_story(prompt, api_key):
             {"role": "user", "content": prompt}
         ]
     )
-    story = response['choices'][0]['message']['content'].strip()
+    story = response.choices[0].message['content'].strip()
     return story
