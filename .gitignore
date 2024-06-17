@@ -1,0 +1,17 @@
+# Ignore virtual environment directories
+venv/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore any environment variable files
+.env
+
+# Ignore output files
+*.mp3
+*.avi
+*.png
+
+# Ignore API keys file
+api_key.txt
